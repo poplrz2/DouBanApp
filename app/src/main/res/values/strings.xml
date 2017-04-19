@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">DouBanApp</string>
+    <string name="home_str">首页</string>
+    <string name="book_str">书影音</string>
+    <string name="broadcast_str">广播</string>
+    <string name="team_str">小组</string>
+    <string name="mine_str">我的</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

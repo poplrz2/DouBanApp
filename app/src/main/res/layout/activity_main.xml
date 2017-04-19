@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.edu.doubanapp.ui.main.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/selectbar_rg_mainact"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:weightSum="5">
+
+        <RadioButton
+            android:id="@+id/home_tbtn_mainact"
+            style="@style/selectBarTheme"
+            android:drawableTop="@drawable/home_rbtn_selector"
+            android:text="@string/home_str"
+            />
+        <RadioButton
+            android:id="@+id/book_tbtn_mainact"
+            style="@style/selectBarTheme"
+            android:drawableTop="@drawable/book_rbtn_selector"
+            android:text="@string/book_str"
+            />
+        <RadioButton
+            android:id="@+id/broadcast_tbtn_mainact"
+            style="@style/selectBarTheme"
+            android:drawableTop="@drawable/broadcast_rbtn_selector"
+            android:text="@string/broadcast_str"
+            />
+
+        <RadioButton
+            android:id="@+id/team_tbtn_mainact"
+            style="@style/selectBarTheme"
+            android:drawableTop="@drawable/team_rbtn_selector"
+            android:text="@string/team_str"
+
+            />
+        <RadioButton
+            android:id="@+id/mine_tbtn_mainact"
+            style="@style/selectBarTheme"
+            android:drawableTop="@drawable/mine_rbtn_selector"
+            android:text="@string/mine_str"
+            />
+    </RadioGroup>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:textColor="@color/color_default"
+        android:layout_above="@id/selectbar_rg_mainact"/>
+    <FrameLayout
+        android:id="@+id/view_flayout_mianact"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/selectbar_rg_mainact">
+    </FrameLayout>
+</RelativeLayout>
